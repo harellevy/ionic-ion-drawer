@@ -206,7 +206,6 @@
 				restrict: 'E',
 				controller: 'drawerCtrl',
 				link: function($scope, $element, $attr, ctrl) {
-
 					$element.addClass($attr.side);
 					$scope.openDrawer = function() {
 						//console.log('open');
@@ -231,5 +230,4 @@
 				}
 			}
 		}]);
-
 })();
